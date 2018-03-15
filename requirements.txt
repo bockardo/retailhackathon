@@ -1,0 +1,2 @@
+pyTelegramBotAPI
+git+https://github.com/datawizio/pythonAPI.git
