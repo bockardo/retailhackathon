@@ -45,6 +45,7 @@ def turnover_by_shops(message):
     df['turnover'] = df['turnover'].round(2)
     result = convert_human_format(df, ['Назва магазина', 'Оборот'])
     bot.send_message(message.chat.id, result)
+    
 
 
 bot.polling()
